@@ -1,0 +1,17 @@
+function must accept character and check whether it is a vowel if so return 1 and else 0
+
+
+int isVowel(char ch) // by default func assigned as int
+{
+   if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+     return 1;
+    else
+     return 0;
+}
+
+int main()
+{
+  char ch;
+  scanf("%c",ch);
+  printf("%d",isvowel());
+}
